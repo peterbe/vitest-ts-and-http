@@ -1,5 +1,5 @@
 {
-  "name": "jest-and-ts",
+  "name": "vitest-ts-and-http",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,15 +12,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "ts-jest": "29.1.2",
     "tsx": "4.7.2",
     "typescript": "5.4.4",
     "vitest": "1.5.0"
-  },
-  "jest": {
-    "preset": "ts-jest",
-    "testEnvironment": "node",
-    "globalSetup": "./jest.setup.ts",
-    "globalTeardown": "./jest.teardown.ts"
   }
 }

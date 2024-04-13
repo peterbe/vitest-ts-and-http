@@ -41,7 +41,7 @@ You'll see:
 ```shell
 ❯ CI=1 npm run test
 
-> jest-and-ts@1.0.0 test
+> vitest-ts-and-http@1.0.0 test
 > vitest
 
 
