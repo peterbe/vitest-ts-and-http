@@ -10,6 +10,8 @@ export async function main() {
       return;
     }
     res.statusCode = 200;
+    console.log("HI THERE");
+    // console.log("HI THERE".repeat(100));
     res.setHeader("Content-Type", "text/plain");
     res.end("Hello, World!\n");
   });
